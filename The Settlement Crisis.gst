@@ -38,11 +38,23 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="1d82-6b52-2b8a-050e" name="Units" hidden="false"/>
+    <categoryEntry id="a009-4886-607d-792d" name="Light Infantry" hidden="false"/>
+    <categoryEntry id="398a-b63d-7e1d-e7bc" name="Medium Infantry" hidden="false"/>
+    <categoryEntry id="c85c-c8f3-0254-e31e" name="Heavy Infantry" hidden="false"/>
+    <categoryEntry id="63e8-1114-a868-57f2" name="Light Mechs" hidden="false"/>
+    <categoryEntry id="e999-bfd1-a8ea-62ea" name="Medium Mechs" hidden="false"/>
+    <categoryEntry id="4927-21b6-444e-006d" name="Heavy Mechs" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5e15-72b8-161c-0cc8" name="Regular List" hidden="false">
       <categoryLinks>
         <categoryLink id="85c2-5bbb-4de4-bac1" name="Units" hidden="false" targetId="1d82-6b52-2b8a-050e" primary="false"/>
+        <categoryLink id="d3ca-96b2-c9b8-7ea9" name="Light Infantry" hidden="false" targetId="a009-4886-607d-792d" primary="false"/>
+        <categoryLink id="868d-9f48-b9e6-aa09" name="Medium Infantry" hidden="false" targetId="398a-b63d-7e1d-e7bc" primary="false"/>
+        <categoryLink id="fe05-e04f-000b-f3bb" name="Heavy Infantry" hidden="false" targetId="c85c-c8f3-0254-e31e" primary="false"/>
+        <categoryLink id="2d37-3725-3214-f6e9" name="Light Mechs" hidden="false" targetId="63e8-1114-a868-57f2" primary="false"/>
+        <categoryLink id="449e-3865-dc64-55f3" name="Medium Mechs" hidden="false" targetId="e999-bfd1-a8ea-62ea" primary="false"/>
+        <categoryLink id="6aa5-fb5c-6a20-40ea" name="Heavy Mechs" hidden="false" targetId="4927-21b6-444e-006d" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
