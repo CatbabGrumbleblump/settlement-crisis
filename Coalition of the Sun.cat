@@ -585,62 +585,16 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="adca-75f9-8995-ac35" name="Unit Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="8eca-ff4d-ace1-bd79">
+        <selectionEntryGroup id="adca-75f9-8995-ac35" name="Unit Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="202b-665f-9d26-b0f4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8c9-d090-aed4-c032" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9583-f35d-45c6-9cb1" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="8eca-ff4d-ace1-bd79" name="★ Zealot" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="1107-cb2f-7ee5-0b10" name="★ Zealot" hidden="false" targetId="252d-db21-8597-525b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="Units" typeId="units" value="0.0"/>
-                <cost name="Points" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9bc4-8495-dcce-544a" name="★ Devotee" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="faad-ddc2-620a-bd2e" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <infoLinks>
-                <infoLink id="20e0-ef52-cb0f-fd95" name="★ Zealot" hidden="false" targetId="252d-db21-8597-525b" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="name" value="★ Devotee"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Units" typeId="units" value="0.0"/>
-                <cost name="Points" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="507f-b024-ff39-fbc9" name="★ Martyr" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="794e-06f8-21ef-1f08" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <infoLinks>
-                <infoLink id="88b9-6bb0-7df8-61e2" name="★ Zealot" hidden="false" targetId="252d-db21-8597-525b" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="name" value="★ Martyr"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Units" typeId="units" value="0.0"/>
-                <cost name="Points" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="202b-665f-9d26-b0f4" name="★ Zealot" hidden="false" collective="false" import="true" targetId="60cc-8761-3170-6ddc" type="selectionEntry"/>
+            <entryLink id="760f-9ea9-bc15-c1b7" name="★ Devotee" hidden="false" collective="false" import="true" targetId="2309-110f-fc17-c502" type="selectionEntry"/>
+            <entryLink id="9069-19f7-3e6b-1a80" name="★ Martyr" hidden="false" collective="false" import="true" targetId="e17e-bf84-6dd4-de8b" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -673,42 +627,26 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="69a6-f5ed-7b8c-319d" name="Unit Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="7382-c032-ee0c-9631">
+        <selectionEntryGroup id="69a6-f5ed-7b8c-319d" name="Unit Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="8429-15aa-7d55-a278">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="049f-55ba-5ca7-70d5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21af-619b-3435-f202" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="7382-c032-ee0c-9631" name="★ Repentant" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="c138-f4a9-b4a3-91ca" name="★ Zealot" hidden="false" targetId="252d-db21-8597-525b" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="name" value="★ Repentant"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Units" typeId="units" value="0.0"/>
-                <cost name="Points" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="af5a-365c-1e5c-becd" name="★ Repentant Superior" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="8429-15aa-7d55-a278" name="★ Repentant" hidden="false" collective="false" import="true" targetId="0b0a-82b5-7f91-6aa6" type="selectionEntry"/>
+            <entryLink id="32d2-a657-634d-cd73" name="★ Repentant Superior" hidden="false" collective="false" import="true" targetId="f802-1502-a40f-6760" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="hidden" value="true">
+                <modifier type="set" field="6ff6-587c-ff1b-6761" value="1.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a71a-de15-9171-2d74" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="908c-3334-5606-9e7c" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
-              <infoLinks>
-                <infoLink id="d744-8fe2-4252-87c4" name="★ Repentant Superior" hidden="false" targetId="d13e-5deb-cb29-e367" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="Units" typeId="units" value="0.0"/>
-                <cost name="Points" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ff6-587c-ff1b-6761" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -771,12 +709,17 @@
               <infoLinks>
                 <infoLink id="c26a-58e9-932e-633a" name="★ M1 &quot;The Hammer&quot;" hidden="false" targetId="eb11-4d9d-419f-a8d7" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="Units" typeId="units" value="0.0"/>
+                <cost name="Points" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="Units" typeId="units" value="1.0"/>
+        <cost name="Points" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8541-aaea-1539-7f98" name="Walkers - M2 Section" hidden="false" collective="false" import="true" type="upgrade">
@@ -809,12 +752,17 @@
               <infoLinks>
                 <infoLink id="10b0-4737-36c5-d7d4" name="★ M2 &quot;The Anvil&quot;" hidden="false" targetId="3d38-79f7-8566-4d60" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="Units" typeId="units" value="0.0"/>
+                <cost name="Points" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="Units" typeId="units" value="1.0"/>
+        <cost name="Points" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="616b-fbfa-38a0-e8db" name="Jujak" hidden="false" collective="false" import="true" type="unit">
@@ -825,6 +773,7 @@
       </infoLinks>
       <costs>
         <cost name="Points" typeId="points" value="5.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f75e-b29d-1805-4b69" name="Phoenix" hidden="false" collective="false" import="true" type="unit">
@@ -835,6 +784,7 @@
       </infoLinks>
       <costs>
         <cost name="Points" typeId="points" value="10.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="52ac-e250-4d06-3f96" name="Simurgh" hidden="false" collective="false" import="true" type="unit">
@@ -845,6 +795,7 @@
       </infoLinks>
       <costs>
         <cost name="Points" typeId="points" value="10.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c21c-e758-529a-7f3a" name="Firebirds - Firebirds Striketeam" hidden="false" collective="false" import="true" type="unit">
@@ -969,6 +920,7 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="points" value="2.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4442-0632-886a-66ed" name="Squad Lead" hidden="false" collective="false" import="true" type="unit">
@@ -983,6 +935,7 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="points" value="5.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6050-3d90-0f96-c5dc" name="AT Rifleman" hidden="false" collective="false" import="true" type="unit">
@@ -998,6 +951,7 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="points" value="5.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="41b7-ce60-10dc-ad92" name="GL Rifleman" hidden="false" collective="false" import="true" type="unit">
@@ -1013,6 +967,7 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="points" value="5.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="812e-80ea-ee4b-e8d1" name="LMG Rifleman" hidden="false" collective="false" import="true" type="unit">
@@ -1028,6 +983,7 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="points" value="5.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ff7-d540-a061-6cee" name="HMG Rifleman" hidden="false" collective="false" import="true" type="unit">
@@ -1043,6 +999,7 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="points" value="5.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cab3-559c-ae78-48f0" name="Marksman" hidden="false" collective="false" import="true" type="unit">
@@ -1058,6 +1015,7 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="points" value="5.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3006-0517-71fb-1d0a" name="ML Rifleman" hidden="false" collective="false" import="true" type="unit">
@@ -1073,6 +1031,7 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="points" value="5.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="efa2-c8fc-7538-fc7e" name="Infantry - Infantry Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1426,6 +1385,7 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="points" value="8.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0cc-3822-05c5-f240" name="Missile Launcher Team" hidden="false" collective="false" import="true" type="unit">
@@ -1440,6 +1400,7 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="points" value="8.0"/>
+        <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f9f6-2227-6910-3f84" name="Infantry - Heavy Weapons Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1519,6 +1480,78 @@
         <cost name="Points" typeId="points" value="0.0"/>
         <cost name="Units" typeId="units" value="1.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="60cc-8761-3170-6ddc" name="★ Zealot" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4243-f5e4-52ac-9cf9" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="1eb8-9bf3-70c2-4c8a" name="★ Zealot" hidden="false" targetId="252d-db21-8597-525b" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e17e-bf84-6dd4-de8b" name="★ Martyr" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a5a-055d-0fb1-f641" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="a911-a97a-a4d7-2b11" name="★ Zealot" hidden="false" targetId="252d-db21-8597-525b" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="★ Martyr"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2309-110f-fc17-c502" name="★ Devotee" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ef1-6aa0-e7d8-3fef" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="4062-0b00-a372-f876" name="★ Zealot" hidden="false" targetId="252d-db21-8597-525b" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="★ Devotee"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f802-1502-a40f-6760" name="★ Repentant Superior" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="908c-3334-5606-9e7c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="425c-c215-5cf6-c159" name="★ Repentant Superior" hidden="false" targetId="d13e-5deb-cb29-e367" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="0b0a-82b5-7f91-6aa6" name="★ Repentant" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a90b-8acf-4998-605c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="16bd-0088-5907-d627" name="★ Zealot" hidden="false" targetId="252d-db21-8597-525b" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="★ Repentant"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
