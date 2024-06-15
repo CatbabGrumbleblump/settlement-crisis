@@ -157,7 +157,7 @@
         <cost name="Units" typeId="units" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36ad-59b4-6855-cc3c" name="Surivability Support" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="36ad-59b4-6855-cc3c" name="Survivability Support" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="de37-3f89-cbac-7f6e" name="Surivability Support" hidden="false" targetId="b522-a45f-ab78-99ab" type="profile"/>
       </infoLinks>
